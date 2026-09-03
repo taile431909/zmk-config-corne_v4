@@ -1,4 +1,4 @@
-&oled {
-    /delete-property/ segment-remap;
-    /delete-property/ com-invdir;
+&glcd {
+    segment-remap;
+    com-invdir;
 };
