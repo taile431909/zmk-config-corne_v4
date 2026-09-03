@@ -1,1 +1,6 @@
-
+&pro_micro_i2c {
+    ssd1306@3c {
+        segment-remap;
+        com-invdir;
+    };
+};
