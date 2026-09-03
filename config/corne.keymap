@@ -70,10 +70,10 @@
 
         blu_layer {
             bindings = <
-&trans      &trans        &trans        &trans  &sys_reset  &trans         &trans  &trans  &trans  &trans  &ext_power EP_TOG  &trans
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans      &trans         &trans  &trans  &trans  &trans  &trans             &trans
-&trans      &trans        &trans        &trans  &trans      &bootloader    &trans  &trans  &trans  &trans  &trans             &trans
-                                        &trans  &trans      &trans         &trans  &trans  &trans
+&trans      &trans        &trans        &trans  &sys_reset  &trans         &trans       &trans  &trans  &trans  &ext_power EP_TOG  &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans      &trans         &trans       &trans  &trans  &trans  &trans             &trans
+&trans      &trans        &trans        &trans  &trans      &bootloader    &bootloader  &trans  &trans  &trans  &trans             &trans
+                                        &trans  &trans      &trans         &trans       &trans  &trans
             >;
         };
     };
