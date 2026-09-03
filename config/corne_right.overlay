@@ -1,1 +1,4 @@
-
+&oled {
+    segment-remap;
+    com-invdir;
+};
