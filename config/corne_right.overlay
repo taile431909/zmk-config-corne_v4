@@ -1,4 +1,4 @@
 &glcd {
-    segment-remap;
-    com-invdir;
+    /delete-property/ segment-remap;
+    /delete-property/ com-invdir;
 };
